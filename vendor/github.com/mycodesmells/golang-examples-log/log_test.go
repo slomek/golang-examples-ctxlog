@@ -1,7 +1,10 @@
 package log
 
-import "testing"
+import (
+	"testing"
+	"time"
+)
 
 func TestLog(t *testing.T) {
-	Println("Hello world!")
+	Println(time.Now(), "Hello world!")
 }

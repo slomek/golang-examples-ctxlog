@@ -5,9 +5,9 @@ import (
 	"time"
 )
 
-func Println(v ...interface{}) {
+func Println(t time.Time, v ...interface{}) {
 	v = append(v, 0)
 	copy(v[1:], v[:])
-	v[0] = time.Now().Format(time.RFC3339)
+	v[0] = t.Format(time.RFC3339)
 	fmt.Println(v...)
 }

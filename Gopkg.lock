@@ -4,12 +4,12 @@
 [[projects]]
   name = "github.com/mycodesmells/golang-examples-log"
   packages = ["."]
-  revision = "2904ce9c39c662f70ac593abe8ae92d3612427f4"
-  version = "1.0.0"
+  revision = "44c97432c012a263a06c740f648ad275c89fa6f6"
+  version = "2.0.0"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "e185b14a22c3f0e389e19070341a9bdade1b8437284f2049356aff5a5be3ba84"
+  inputs-digest = "cb64f4ec6743e60c97b6a1738e39992b522e5fde9d6a322ebfbab3cd38b30578"
   solver-name = "gps-cdcl"
   solver-version = 1
